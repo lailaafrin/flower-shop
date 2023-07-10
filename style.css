@@ -21,9 +21,6 @@ container-img{
   
 
 }
-
-
-/* footer section */
 .btn-info{
     background-color: #E55473;
     border-radius: 5px;
@@ -31,7 +28,21 @@ container-img{
     padding: 10px 12px;
     color: white;
 }
+.content{
+    text-align: center;
+    background-image: url('./image/Rectangle\ 9.png');
+    margin: 50px;
+    padding: 20px;
 
+}
+input{
+   border-radius: 5px;
+    border-style: none;
+    padding: 10px 12px;  
+}
+
+
+/* footer section */
 .foot{
     background-color: black;
    text-align: center;
