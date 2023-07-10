@@ -10,7 +10,9 @@ body{
      align-items: center;
     justify-content: space-between;
     padding:0px 50px;
-    background-color: bisque;
+    background-color:  rgba(229, 84, 115, 0.15);
+
+
 }
 
 container-img{
@@ -20,9 +22,36 @@ container-img{
 
 }
 
+
+/* footer section */
 .btn-info{
     background-color: #E55473;
+    border-radius: 5px;
     border-style: none;
     padding: 10px 12px;
     color: white;
+}
+
+.foot{
+    background-color: black;
+   text-align: center;
+}
+
+.footer-info{
+    color: #E55473;
+    
+}
+h2{
+   color: aliceblue;
+    
+    
+}
+
+h6{
+     
+    color: aliceblue;
+    
+}
+address{
+    color: rgb(77, 77, 77);
 }
