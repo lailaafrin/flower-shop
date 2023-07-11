@@ -28,6 +28,95 @@ container-img{
     padding: 10px 12px;
     color: white;
 }
+
+/* section conner card*/
+ .cornner{
+    color: rgb(23, 19, 19);
+    text-align: center;
+
+}
+
+.card-container{
+display: flex;
+
+justify-content:space-around;
+
+}
+
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+p{
+    color: rgb(82, 79, 79);
+    text-align: center;
+}
+.flo-bg{
+   background-color: aqua;
+     border-radius:300px 300px 0px 0px;
+   
+    width: 400px;
+    height: 500; 
+}
+.flo-tow{
+    background-color: blueviolet;
+      border-radius:300px 300px 0px 0px;
+       width: 400px;
+    height: 560px;
+}
+.flo-three{
+     border-radius:300px 300px 0px 0px;
+    background-color: palevioletred;
+    width: 400px;
+    height:550px;
+
+}
+/* offer section */
+.offer-container{
+    height: 850;
+    width: 1920;
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+    background-color:  rgba(229, 84, 115, 0.15);
+
+}
+.btn-off{
+    background-color: #E55473;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 12px;
+    color: white;
+    
+}
+/* ------------------ */
+
+/* instragra section */
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.card{
+    width: 220px;
+    height:300px;
+    box-shadow: 4px 4px 4px gray;
+
+}
+
+.img-ins{
+ 
+    width: 220px;
+    height:300px;
+    
+}
+/* ----------------- */
+
 .content{
     text-align: center;
     background-image: url('./image/Rectangle\ 9.png');
@@ -38,7 +127,8 @@ container-img{
 input{
    border-radius: 5px;
     border-style: none;
-    padding: 10px 12px;  
+    padding: 10px 12px;
+    background-color: rgb(192, 190, 189);
 }
 
 
