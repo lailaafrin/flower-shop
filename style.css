@@ -22,14 +22,15 @@ container-img{
 
 }
 .btn-info{
-    background-color: #E55473;
-    border-radius: 5px;
+     border-radius: 5px;
     border-style: none;
     padding: 10px 12px;
     color: white;
+    background-color: #E55473;
 }
 
 /* section conner card*/
+
  .cornner{
     color: rgb(23, 19, 19);
     text-align: center;
@@ -37,11 +38,18 @@ container-img{
 }
 
 .card-container{
-display: flex;
+     max-width: 990px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+   
 
-justify-content:space-around;
+
 
 }
+
 
 
 h4{
@@ -57,30 +65,35 @@ p{
 .flo-bg{
    background-color: aqua;
      border-radius:300px 300px 0px 0px;
-   
-    width: 400px;
-    height: 500; 
+     width: 200px;
+     height: 300px;
+      box-shadow: 4px 4px 4px gray;
+
 }
 .flo-tow{
     background-color: blueviolet;
       border-radius:300px 300px 0px 0px;
-       width: 400px;
-    height: 560px;
+     width: 200px;
+     height: 300px;
+      box-shadow: 4px 4px 4px gray;
+    
 }
 .flo-three{
      border-radius:300px 300px 0px 0px;
     background-color: palevioletred;
-    width: 400px;
-    height:550px;
+     width: 200px;
+     height: 300px;
+      box-shadow: 4px 4px 4px gray;
 
 }
 /* offer section */
 .offer-container{
     height: 850;
     width: 1920;
+    padding: 50px;
     display: flex;
      align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:0px 50px;
     background-color:  rgba(229, 84, 115, 0.15);
 
@@ -91,7 +104,7 @@ p{
     border-style: none;
     padding: 10px 12px;
     color: white;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 /* ------------------ */
 
@@ -99,10 +112,10 @@ p{
 .cards{
     display:flex;
     justify-content: center;
-    gap:20px;
+    gap:10px;
 }
 
-.card{
+.card:hover{
     width: 220px;
     height:300px;
     box-shadow: 4px 4px 4px gray;
@@ -119,15 +132,15 @@ p{
 /* ----------------- */
 
 .content{
-    
+    max-width: 900px;
     text-align: center;
     background-image: url('./image/Rectangle\ 9.png');
-    margin: 30px;
+    margin: 50px auto;
     padding: 20px;
 
 }
 input{
-    width: 600px;
+    width: 500px;
    border-radius: 5px;
     border-style: none;
     padding: 10px 12px;
@@ -148,7 +161,7 @@ input{
 }
 h2{
    color: aliceblue;
-   margin-top: 20px;
+   margin-top: 50px;
     
     
 }
