@@ -119,11 +119,11 @@ p{
     width: 220px;
     height:300px;
     box-shadow: 4px 4px 4px gray;
-
+    
 }
 
 .img-ins{
- 
+    
     width: 220px;
     height:300px;
     
@@ -146,8 +146,62 @@ input{
     padding: 10px 12px;
     background-color: rgb(192, 190, 189);
 }
+/* bonas section */
+.input-info{
+width: 300px;
+margin-top:20px;
+   border-radius: 5px;
+    border-style: none;
+    padding: 10px 12px;
+    background-color: rgb(243, 240, 238);
+}
+.ti-he{
+    margin-right: auto;
+    width: 30%;
+}
+.input-in{
+  width: 300px;
+margin-top:20px ;
+   border-radius: 5px;
+    border-style: none;
+    padding: 10px 12px;
+    background-color: rgb(243, 240, 238);
+
+}
+.input-su{
+  width: 100px;
+margin-top:20px ;
+color: aliceblue;
+   border-radius: 5px;
+    border-style: none;
+    padding: 10px 12px;
+    background-color: rgb(182, 42, 114);
+}
+.bonass-m{
+   
+    margin-right: 20px;
+    text-align: right;
+    align-items: center;
+}
+.in-bonass{
+    margin-bottom: 0px;
+    margin-top:50px ;
+}
+.timeles-flower{
+    background-color: #f07892;
+     max-width: 900px;
+     height: 500px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 4px 4px 4px gray;
 
 
+}
+hr{
+    width:40%;
+    margin-right: 50px;
+}
 /* footer section */
 .foot{
     background-color: black;
